@@ -64,3 +64,30 @@ let city = "   jabalpur   ";
 trimmed = city.trim();
  console.log(trimmed);
  console.log(trimmed.toUpperCase());
+
+
+
+
+ ///  ++++++++++++++  SWTICH CASE   +++++++++++++
+
+
+
+
+let monthName = "december";
+switch (monthName){
+    case "january":
+        console.log("december");
+    break;
+
+     case "december":
+        console.log("december");
+        break;
+ 
+    default:
+        console.log("invalid month");
+    
+}  
+
+
+
+

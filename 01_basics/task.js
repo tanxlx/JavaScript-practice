@@ -1,18 +1,15 @@
-
-// Entry pass task
-let visitorName = "  Riya  ";
-let cleanName = visitorName.trim();
-
-if (cleanName.length === 0) {
-    console.log("Name required");
-} else {
-    console.log("Welcome, " + cleanName);
-}
-
-let ticketNumber = 24;
-
-if (ticketNumber % 2 === 0) {
-    console.log("Gate A (Even)");
-} else {
-    console.log("Gate B (Odd)");
+// Starter template for task.js
+let signal = "RED";
+switch (signal.toLowerCase()){
+    case ("red"):
+        console.log("Stop! Wait for green.");
+        break;
+    case ("yellow"):
+        console.log("Slow down and prepare to stop.");
+        break;
+     case ("green"):
+        console.log("Go! Drive safely.");
+        break;
+    default:
+         console.log("Invalid signal color.");
 }
